@@ -10,12 +10,12 @@ public class PayrollSystem {
 
         // 1) إنشاء القائمة وتعبئتها ببيانات متنوعة
         List<Employee> staff = new ArrayList<>();
-        staff.add(new FullTimeEmployee("FT-101", "Layla Haddad", 4200, LocalDate.of(2019, 3, 12), 650));
-        staff.add(new FullTimeEmployee("FT-102", "Omar Nasser", 3100, LocalDate.of(2022, 9, 1), 400));
-        staff.add(new FullTimeEmployee("FT-103", "Sara Mansour", 5000, LocalDate.of(2016, 1, 20), 900));
-        staff.add(new ContractorEmployee("CT-201", "Yazan Khoury", LocalDate.of(2023, 6, 15), 45, 120));
-        staff.add(new ContractorEmployee("CT-202", "Dina Rashed", LocalDate.of(2021, 11, 5), 60, 150));
-        staff.add(new ContractorEmployee("CT-203", "Karim Saleh", LocalDate.of(2024, 2, 10), 30, 80));
+        staff.add(new FullTimeEmployee("FT-101", "mohammed fares", 4200, LocalDate.of(2019, 3, 12), 650));
+        staff.add(new FullTimeEmployee("FT-102", "Omar fares", 3100, LocalDate.of(2022, 9, 1), 400));
+        staff.add(new FullTimeEmployee("FT-103", "rawad bh", 5000, LocalDate.of(2016, 1, 20), 900));
+        staff.add(new ContractorEmployee("CT-201", "sohib dr", LocalDate.of(2023, 6, 15), 45, 120));
+        staff.add(new ContractorEmployee("CT-202", "adel fares", LocalDate.of(2021, 11, 5), 60, 150));
+        staff.add(new ContractorEmployee("CT-203", "Karim mh", LocalDate.of(2024, 2, 10), 30, 80));
 
         // تقييم الأداء لكل موظف (حسب الـ id)
         Map<String, Double> scores = new HashMap<>();
